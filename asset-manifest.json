@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/developerFolio/static/css/main.5ce078cb.chunk.css",
+    "main.js": "/developerFolio/static/js/main.e236eda9.chunk.js",
+    "main.js.map": "/developerFolio/static/js/main.e236eda9.chunk.js.map",
+    "runtime-main.js": "/developerFolio/static/js/runtime-main.d5f4598a.js",
+    "runtime-main.js.map": "/developerFolio/static/js/runtime-main.d5f4598a.js.map",
+    "static/js/2.ce5bbc04.chunk.js": "/developerFolio/static/js/2.ce5bbc04.chunk.js",
+    "static/js/2.ce5bbc04.chunk.js.map": "/developerFolio/static/js/2.ce5bbc04.chunk.js.map",
+    "static/css/3.cffc9e54.chunk.css": "/developerFolio/static/css/3.cffc9e54.chunk.css",
+    "static/js/3.dd8c4976.chunk.js": "/developerFolio/static/js/3.dd8c4976.chunk.js",
+    "static/js/3.dd8c4976.chunk.js.map": "/developerFolio/static/js/3.dd8c4976.chunk.js.map",
+    "static/css/4.54df59d4.chunk.css": "/developerFolio/static/css/4.54df59d4.chunk.css",
+    "static/js/4.aba8f46e.chunk.js": "/developerFolio/static/js/4.aba8f46e.chunk.js",
+    "static/js/4.aba8f46e.chunk.js.map": "/developerFolio/static/js/4.aba8f46e.chunk.js.map",
+    "index.html": "/developerFolio/index.html",
+    "precache-manifest.a8a809c9f25ee0c571244f19bfdb23e8.js": "/developerFolio/precache-manifest.a8a809c9f25ee0c571244f19bfdb23e8.js",
+    "service-worker.js": "/developerFolio/service-worker.js",
+    "static/css/3.cffc9e54.chunk.css.map": "/developerFolio/static/css/3.cffc9e54.chunk.css.map",
+    "static/css/4.54df59d4.chunk.css.map": "/developerFolio/static/css/4.54df59d4.chunk.css.map",
+    "static/css/main.5ce078cb.chunk.css.map": "/developerFolio/static/css/main.5ce078cb.chunk.css.map",
+    "static/media/index.css": "/developerFolio/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/Andela.png": "/developerFolio/static/media/Andela.3d954449.png",
+    "static/media/GDG.png": "/developerFolio/static/media/GDG.3ceca256.png",
+    "static/media/afriadd.png": "/developerFolio/static/media/afriadd.c4622b06.png",
+    "static/media/contactMail.webp": "/developerFolio/static/media/contactMail.68e84138.webp",
+    "static/media/developerActivity.svg": "/developerFolio/static/media/developerActivity.59389695.svg",
+    "static/media/logo.svg": "/developerFolio/static/media/logo.25bf045c.svg",
+    "static/media/lynda.jpg": "/developerFolio/static/media/lynda.add729c7.jpg",
+    "static/media/manOnTable.svg": "/developerFolio/static/media/manOnTable.52be3144.svg",
+    "static/media/nssf.png": "/developerFolio/static/media/nssf.5e97269d.png",
+    "static/media/skill.svg": "/developerFolio/static/media/skill.34409398.svg",
+    "static/media/TalkCard.css": "/developerFolio/static/media/talksCardBack.0288c5ec.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d5f4598a.js",
+    "static/js/2.ce5bbc04.chunk.js",
+    "static/css/main.5ce078cb.chunk.css",
+    "static/js/main.e236eda9.chunk.js"
+  ]
+}
