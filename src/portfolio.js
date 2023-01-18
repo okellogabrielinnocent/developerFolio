@@ -3,13 +3,12 @@
 
 // Your Summary And Greeting Section
 
-import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Gabriel I Okello",
   title: "Hi, I'm Gabriel",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / Python | Django, Angular, Ionic, PHP | Laravel and some other cool libraries and frameworks."),
+  subTitle: "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / Python | Django, Angular, Ionic, PHP | Laravel and some other cool libraries and frameworks.",
   resumeLink: "https://docs.google.com/document/d/1hX-hHgNJd1rMiB6anhmxU_BAGutTj_rleNfCmhRPpJA/edit?usp=sharing"
 };
 
@@ -31,9 +30,9 @@ const skillsSection = {
   title: "Software Enginer",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE STACK",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Mobile apps with Angular Ionic framework"),
-    emoji("⚡  Integration of third party services such as CodeClimate/ Heroku / AWS / Digital Ocean")
+    "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
+    "⚡ Mobile apps with Angular Ionic framework",
+    "⚡  Integration of third party services such as CodeClimate/ Heroku / AWS / Digital Ocean"
   ],
 
   /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -41,6 +40,14 @@ const skillsSection = {
 
   softwareSkills: [
 
+    {
+      skillName: "NodeJs",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    {
+      skillName: "Typescript",
+      fontAwesomeClassname: "fab fa-angular"
+    },
     {
       skillName: "angular",
       fontAwesomeClassname: "fab fa-angular"
@@ -70,10 +77,6 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
@@ -91,8 +94,12 @@ const skillsSection = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true, //Set it to true to show  Section
   experience: [
+    {
+      Stack: "NodeJs",
+      progressPercentage: "90%"
+    },
     {
       Stack: "Django",  //Insert stack or technology you have experience in
       progressPercentage: "90%"  //Insert relative proficiency in percentage
@@ -120,10 +127,24 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
+      company: "GitStart",
+      companylogo: require("./assets/images/gitstart.jpeg"),
+      date: "Feb 2021 – 2022",
+      desc: "Developing robust system using NodeJS,Typescript,ReactJS and NextJS, Python Django",
+    },
+    {
+      role: "Software Engineer",
+      company: "Chalktalk",
+      companylogo: require("./assets/images/chalktalk.jpg"),
+      date: "Feb 2021 – 2022",
+      desc: "Developing robust system using ReactJS, Python Django",
+    },
+    {
+      role: "Software Engineer",
       company: "Afriadd Company Limited",
       companylogo: require("./assets/images/afriadd.png"),
-      date: "Feb 2020 – Present",
-      desc: "Developing ronust system using Python Django, Angular, Ionic",
+      date: "Feb 2020 – 2021",
+      desc: "Developing robust system using Python Django, Angular, Ionic",
       // descBullets: [
       //   "Worked with IT manager to develop data collection system to get location of NSSF remiteers in Uganda using Django, Angular and Ionic framework",
       //   "Validated locations captured before the client gets them",
@@ -178,7 +199,7 @@ const bigProjects = {
 
 const achievementSection = {
 
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: "Achievements And Certifications 🏆 ",
   subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achivementsCards: [
@@ -210,14 +231,26 @@ const blogSection = {
 
   blogs: [
     {
+      url: "https://medium.com/@gabrielinnocentrockerfeller/effectively-using-django-rest-framework-serializers-ef117e5e41e6",
+      title: "Effectively Using Django REST Framework Serializers",
+      description: "An article on the different kinds of ways a developer can effectively use Django REST Framework Serializer."
+    },
+    {
       url: "https://medium.com/@gabrielinnocentrockerfeller/restfull-apis-e9294767ad3d",
       title: "Free RESTfull API’s",
       description: "An article on the different kinds of open source API a developer can use for practice."
     },
+     {
+      url: "https://medium.com/@gabrielinnocentrockerfeller/how-to-fix-fatal-password-authentication-failed-for-user-postgres-in-ubuntu-20-4-f7c6d2856fc9",
+      title: "How to Fix FATAL: password authentication failed for user “postgres” in ubuntu 20.4",
+      description: "This articles pens down how one can fix postgres error which happens when the server does not shut down properly i.e when the battery runs out or any other error which will cause a .pid (or process id) file to block PostgreSQL from connecting to the server.."
+    },
     {
-      url: "https://medium.com/@gabrielinnocentrockerfeller/how-to-adapt-5f558c20f35f",
+      // Host Multiple Websites on a Single Server with Apache on Ubuntu 20.04
+      url: "https://medium.com/@gabrielinnocentrockerfeller/host-multiple-websites-on-a-single-server-with-apache-on-ubuntu-20-04-49162b22184b",
       title: "How To Adapt",
-      description: "This articles pens down how once adaptability is required if he or she is to be a good developer."
+      description: "This articles pens down how one can adaptability is required if he or she is to be a good developer."
+    
     }
   ]
 };
@@ -226,7 +259,7 @@ const blogSection = {
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GIVE BACK TO COMMUNITY 😅"),
+  subtitle: "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GIVE BACK TO COMMUNITY 😅",
 
   talks: [
     {
@@ -242,7 +275,7 @@ const talkSection = {
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
+  title: "Podcast 🎙️",
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
@@ -250,7 +283,7 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: "Contact Me ☎️",
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+256-772248069",
   email_address: "okellogabrielinnocent@gmail.com"
